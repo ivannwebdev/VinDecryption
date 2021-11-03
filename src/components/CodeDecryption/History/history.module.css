@@ -1,0 +1,22 @@
+.wrapper{
+    padding: 5px 5px 5px 0px;
+    display: block;
+}
+
+.historyItem{
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin: 3px;
+}
+.data{
+    padding: 5px;
+}
+
+.recent{
+    padding: 5px;
+    display: inline-block;
+    font-size: 17px;
+}

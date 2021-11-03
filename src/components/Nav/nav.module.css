@@ -1,0 +1,47 @@
+.nav{
+    grid-area: nav;
+    background-color: #2F2E33;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    padding: 35px 0 35px 10px;
+    font-size: 19px;
+}
+
+.active{
+    text-decoration: none;
+    color: goldenrod;
+    padding: 10px;
+    display: block;
+    padding: 35px 0 35px 10px;
+    font-size: 19px;
+}
+
+@media screen and (max-width: 900px) {
+    .link{
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+
+        
+    }
+
+    .active{
+        display: inline-block;
+        text-decoration: none;
+        color: goldenrod;
+        padding: 10px;
+    }
+
+    .nav {
+        grid-area: nav;
+        background-color: #2F2E33;
+        padding: 10px 10px 0 5px;
+    }
+}
+

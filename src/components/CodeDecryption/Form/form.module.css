@@ -1,0 +1,49 @@
+.form{
+    padding: 10px;
+    display: inline-block;
+}
+
+.h{
+    padding: 5px;
+}
+
+.input{
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.button{
+    padding: 5px;
+    font-size: 14px;
+    background-color:darkcyan;
+    border: 1px solid gray;
+    border-radius: 2px;
+    color: white;
+}
+
+.button:hover{
+    box-shadow: 0 0 5px darkcyan;
+}
+
+.maxError{
+    color: red;
+    padding: 3px;
+    font-size: 17px;
+    
+}
+
+.emptyError{
+    
+        color: red;
+        padding: 3px;
+        font-size: 17px;
+        
+    
+}
+
+.bannedSymbolsError{
+    color: red;
+    padding: 3px;
+    font-size: 17px;
+}

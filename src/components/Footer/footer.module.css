@@ -1,0 +1,15 @@
+.footer{
+    grid-area: footer;
+    background-color:#D5D6D2;
+}
+
+.contacts{
+    float: right;
+    padding: 15px 50px 0 10px;
+}
+
+.contacts a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
