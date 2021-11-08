@@ -18,7 +18,6 @@ const Form = (props) => {
             />
 
             <button className= {styles.button} 
-                
                 onClick= {(e) => {
                     e.preventDefault()
                     props.getData(props.input.value)

@@ -17,7 +17,7 @@ const VinList = (props) => {
 
     return  <div className= {styles.wrapper}>
             {
-                props.list.map(el => <div className= {styles.item} key= {Math.random()}>
+                props.list.map(el =>  <div className= {styles.item} key= {el.ID.toString()}>
                     
                     <NavLink to= {`/variables/${el.ID}`}>
                         

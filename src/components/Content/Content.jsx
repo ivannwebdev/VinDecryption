@@ -34,6 +34,10 @@ const Content = () => {
 
         const storageKeys =  JSON.parse(localStorage.getItem('vinKeys')) || []
         const storageData = JSON.parse(localStorage.getItem('vinData')) || []
+        for( let i of storageKeys){
+            if(i === key) return
+        }
+        
         if(storageKeys.length > 4) {
             storageKeys.pop()
             storageData.pop()

@@ -10,9 +10,9 @@ const VinCode = (props) => {
             
             {
                 props.data &&
-                props.data.map(el => 
+                props.data.map((el, i )=> 
                 
-                    <div className= {styles.item} key= {Math.random()}>
+                    <div className= {styles.item} key= {i.toString()}>
                         <div className= {styles.name}>{el.Variable}:</div> <div>{el.Value}</div>
                     </div>
                 )
